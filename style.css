@@ -1,0 +1,156 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(255, 255, 255);
+}
+table,
+td {
+  padding: 15px;
+  border-collapse: collapse;
+  border: 1px solid rgb(121, 119, 119);
+}
+header h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  background-color: rgba(7, 60, 78, 0.834);
+  color: rgb(246, 248, 250);
+}
+.Navbar {
+  position: sticky;
+  top: -2px;
+  width: auto;
+  background-color: rgb(91, 111, 121);
+  color: azure;
+  letter-spacing: 1px;
+}
+.Navbar h2 {
+  display: flex;
+}
+.Navbar ol {
+  display: flex;
+  justify-content: center;
+}
+.Navbar ol li {
+  cursor: pointer;
+  list-style-type: none;
+  padding: 20px;
+}
+.Navbar ol li a {
+  color: white;
+  text-decoration: none;
+  transition: 0.1s;
+}
+.Navbar ol li a:hover {
+  color: rgb(224, 37, 37);
+}
+
+.Check_done {
+  width: 5px;
+}
+.PAN_number {
+  width: 30%;
+  height: 30px;
+  font-weight: 500;
+  font-size: small;
+  background-color: transparent;
+}
+input {
+  border-radius: 10px;
+  padding-left: 10px;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #1f1e1e;
+}
+.INPUT {
+  width: 50%;
+  height: 30px;
+  font-weight: 500;
+  font-size: small;
+  background-color: transparent;
+}
+
+span {
+  color: rgb(27, 192, 27);
+}
+.DOB {
+  width: 20%;
+  height: 30px;
+}
+
+button {
+  width: 30%;
+  height: 60px;
+  border: none;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 30px;
+  letter-spacing: 5px;
+  cursor: pointer;
+  background-color: rgb(95, 148, 245);
+  transition: 1s;
+  border-radius: 10px;
+}
+button:hover {
+  background-color: transparent;
+  color: green;
+  border: 8px solid green;
+  font-weight: bolder;
+}
+
+@media screen and (max-width: 980px) {
+  header h2 {
+    font-size: 17px;
+    margin-left: 0;
+  }
+}
+@media screen and (max-width: 750px) {
+  header {
+    width: 1000px;
+    font-size: 17px;
+    margin-left: 0;
+  }
+  .Navbar {
+    width: 1000px;
+  }
+}
+@media screen and (max-width: 400px) {
+  header {
+    width: 1000px;
+    font-size: 10px;
+    margin-left: -100px;
+  }
+  .Navbar {
+    width: 1000px;
+    margin-left: -100px;
+  }
+  table,
+  td {
+    padding: 4px;
+  }
+  button {
+    width: 1000px;
+  }
+}
+@media screen and (max-width: 100px) {
+  header {
+    width: 1000px;
+    font-size: 10px;
+    margin-left: -100px;
+  }
+  .Navbar {
+    width: 1000px;
+    margin-left: -100px;
+  }
+  table,
+  td {
+    padding: 4px;
+  }
+  button {
+    width: 1000px;
+  }
+}
